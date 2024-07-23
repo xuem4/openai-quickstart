@@ -8,10 +8,13 @@ from model import Model
 from utils import LOG
 from openai import OpenAI
 
+import os
+os.environ['OPENAI_API_KEY'] = 'sk-LGbJjRIZZ6VB4Zi8C0Fc3e57F3Bd45838276F801De5e88Ef'
+os.environ['OPENAI_BASE_URL'] = 'https://api.xiaoai.plus/v1'
 class OpenAIModel(Model):
     def __init__(self, model: str, api_key: str):
         self.model = model
-        self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"),base_url=os.getenv("OPENAI_BASE_URL"))
 
     def make_request(self, prompt):
         attempts = 0
