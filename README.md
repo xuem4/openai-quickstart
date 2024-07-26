@@ -1,3 +1,5 @@
+## Day 1
+
 ### 日报总结
 
 **日期：2024年7月22日**
@@ -81,3 +83,23 @@
 ![](D:\openai\my-fork\openai-quickstart\2024-07-22.png)
 
 ![](D:\openai\my-fork\openai-quickstart\2024-07-22(2).png)
+
+## Day 2
+
+#### 1.GPT-4V
+
+https://github.com/DjangoPeng/openai-quickstart/commit/ee3008564ac9672f11cb7923f8d2169e9fd0b401
+
+#### 2.ai translator
+
+https://github.com/DjangoPeng/openai-quickstart/commit/525b975b648337d77b5ec92c282c3ad8284c6731
+
+https://github.com/DjangoPeng/openai-quickstart/commit/5723b672753ea2a7d5cbfb1e933e8a72faa7ce61
+
+#### 3.langchains
+
+https://github.com/DjangoPeng/openai-quickstart/commit/7ce699e1e60a715f675d84438d671bfc45328649
+
+## Day 3
+
+https://github.com/DjangoPeng/openai-quickstart/commit/0ec64ace8616f7b4817c36da44688b2228b7428b
